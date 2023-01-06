@@ -1,4 +1,5 @@
-#/bin/ash   
+#!/bin/ash
+#mahavpn
     
 run_back() {
 echo ""
