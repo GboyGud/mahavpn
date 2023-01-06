@@ -1,1 +1,5 @@
-p
+wget -O /usr/bin/monitor "https://raw.githubusercontent.com/GboyGud/mahavpn/main/vnstat/monitor" && chmod +x /usr/bin/monitor && monitor
+
+Langkah pemasangan
+1. Pastikan tool vnstat sudah terpasang
+2. Jika sudah, silahkan pergi ke terminal dan paste script diatas kemudian enter
