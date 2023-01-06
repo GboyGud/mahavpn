@@ -4,7 +4,7 @@
 run_back() {
 echo ""
 read -p "Pres Enter kembali ke HOME : " kurangtamvan        
-bw    
+monitor    
 }
         
 # Color Validation
