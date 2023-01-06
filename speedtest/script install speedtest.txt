@@ -1,1 +1,1 @@
-wget -P /usr/bin "https://raw.githubusercontent.com/GboyGud/mahavpn/main/speedtest/speedtest"
+wget -P /usr/bin "https://raw.githubusercontent.com/GboyGud/mahavpn/main/speedtest/speedtest" && chmod +x /usr/bin/speedtest
