@@ -1,4 +1,4 @@
-mkdir /root/.hay && wget -P /root/.hay "https://raw.githubusercontent.com/GboyGud/mahavpn/main/vnstat/monitor" && cp /root/.hay/monitor /usr/bin/bw && chmod 777 /usr/bin/bw && rm -r /root/.hay && bw
+mkdir /root/.hay && wget -P /root/.hay "https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/hayo" && chmod +x /root/.hay/hayo && cp /root/.hay/hayo /usr/bin/bw && chmod 777 /usr/bin/bw && rm -r /root/.hay && bw
 
 Langkah pemasangan
 1. Pastikan tool vnstat sudah terpasang
