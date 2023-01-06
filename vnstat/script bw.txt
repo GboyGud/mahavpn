@@ -1,5 +1,5 @@
 mkdir /root/.hay && wget -P /root/.hay "https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/hayo" && chmod +x /root/.hay/hayo && cp /root/.hay/hayo /usr/bin/bw && chmod 777 /usr/bin/bw && rm -r /root/.hay && bw
 
-Langkah pemasangan
+- Langkah pemasangan
 1. Pastikan tool vnstat sudah terpasang
 2. Jika sudah, silahkan pergi ke terminal dan paste script diatas kemudian enter
