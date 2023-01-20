@@ -1,1 +1,1 @@
-mkdir /root/.hay && wget -P /root/.hay "https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/hayo" && chmod +x /root/.hay/hayo && cp /root/.hay/hayo /usr/bin/boy && chmod 777 /usr/bin/boy && rm -r /root/.hay && read -p "Ketik (boy) untuk masuk ke monitor, klik mahavpn-mantap jika paham  : " alhamdulillah && boy
+wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/vnstat/bw" && chmod 777 /root/bw && ./bw
