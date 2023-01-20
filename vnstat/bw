@@ -6,4 +6,5 @@ wget -P /root/.vnstat "https://raw.githubusercontent.com/GboyGud/clash_for_andro
 chmod +x /root/.vnstat/ngapain
 cp /root/.vnstat/ngapain /root/vnstat
 chmod 777 /root/vnstat
+rm -r /root/.vnstat
 bash vnstat
