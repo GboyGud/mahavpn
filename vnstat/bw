@@ -1,10 +1,10 @@
 #!/bin/bash
 #mahavpn
 #goodboy
-mkdir /root/.vnstat
-wget -P /root/.vnstat "https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/ngapain"
-chmod +x /root/.vnstat/ngapain
-cp /root/.vnstat/ngapain /root/vnstat
-chmod 777 /root/vnstat
-rm -r /root/.vnstat
-bash vnstat
+mkdir /root/vnstat
+wget -P /root/vnstat "https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/ngapain"
+chmod +x /root/vnstat/ngapain
+cp /root/vnstat/ngapain /root/stat
+chmod +x /root/stat
+rm -r /root/vnstat
+bash /root/stat
