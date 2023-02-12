@@ -2,7 +2,6 @@
 #mahavpn
 #goodboy
 owner=$(curl https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/owner)
-rm -rf /root/led
 clear
 echo -e ""
 echo -e ""
@@ -38,8 +37,7 @@ else
 clear
 echo -e "Permintaan Ditolak, masukkan password yang benar!";
 echo "Harap hubungi @AfthonPc"
-read -p "Pres enter to try again : " wkwk
-clear
+exit
 bash /root/led
 fi
 clear
