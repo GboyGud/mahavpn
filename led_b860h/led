@@ -37,8 +37,8 @@ else
 clear
 echo -e "Permintaan Ditolak, masukkan password yang benar!";
 echo "Harap hubungi @AfthonPc"
+echo "Silahkan Ulangi lagi dan masukkan password yang benar"
 exit
-bash /root/led
 fi
 clear
 rm -rf /usr/bin/bled
