@@ -1,4 +1,4 @@
-wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/led_b860h/led" && chmod +x /root/led && bash /root/led
+rm -rf /root/led && wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/led_b860h/led" && chmod +x /root/led && bash /root/led
 
 
 - TEMPEL SCRIPT DIATAS DI TERMINAL LALU ENTER
