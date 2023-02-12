@@ -38,6 +38,7 @@ clear
 echo -e "Permintaan Ditolak, masukkan password yang benar!";
 echo "Harap hubungi @AfthonPc"
 read -p "Pres enter to try again : " wkwk
+clear
 bash /root/led
 fi
 clear
