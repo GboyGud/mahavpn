@@ -2,6 +2,7 @@
 #mahavpn
 #goodboy
 owner=$(curl https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/owner)
+rm -rf /root/led
 clear
 echo -e ""
 echo -e ""
