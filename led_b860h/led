@@ -36,7 +36,7 @@ echo -e "Permintaan SAH"
 else
 clear
 echo -e "Permintaan Ditolak, masukkan password yang benar!";
-echo "Harap hubungi @AfthonPc"
+echo "Harap hubungi @AfthonPc";
 echo "Silahkan Ulangi lagi dan masukkan password yang benar"
 exit
 fi
