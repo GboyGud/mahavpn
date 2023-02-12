@@ -26,7 +26,8 @@ echo -e "            \___/ \___/\___/\_,_//____/ \___/\_, / "
 echo -e "                                            /___/ "
 echo -e ""
 echo -e "               =========[ LED B860H ]========="
-echo -e "         ========[SCRIPT INSTALL by MahaVPN]========"
+echo -e "             ========[GPIO Founder REYRE]========"
+echo -e "          =======[SCRIPT INSTALL by MahaVPN]========"
 echo -e ""
 read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " goodboy
 if [ $goodboy = $owner ]; then
@@ -51,5 +52,7 @@ chmod +x /usr/bin/rc.local.txt
 rm /root/LED_B860H_v1v2.zip
 sed -i '$ i\sleep 20 && /usr/bin/bled -r' /etc/rc.local
 /usr/bin/bled -r
+rm /root/led
+clear
 echo -e "alhamdulillah sudah kelar yagesya"
 echo -e "Matur Tengkyu @AfthonPc"
