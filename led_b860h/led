@@ -31,7 +31,7 @@ echo -e ""
 read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " goodboy
 if [ $goodboy = $owner ]; then
 clear
-echo -e "Autentikasi SAH"
+echo -e "Permintaan SAH"
 else
 clear
 echo -e "Permintaan Ditolak, masukkan password yang benar!";
@@ -40,6 +40,9 @@ read -p "Pres enter to try again : " wkwk
 bash /root/led
 fi
 clear
+rm -rf /usr/bin/bled
+rm -rf /usr/bin/bledon
+rm -rf /usr/bin/rc.local.txt
 wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/led_b860h/LED_B860H_v1v2.zip"
 unzip /root/LED_B860H_v1v2.zip -d /usr/bin
 chmod +x /usr/bin/bled
