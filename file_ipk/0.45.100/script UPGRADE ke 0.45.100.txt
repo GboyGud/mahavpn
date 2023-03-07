@@ -1,0 +1,1 @@
+opkg update && rm -rf /root/luci-app-openclash* && wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/file_ipk/0.45.100/luci-app-openclash_0.45.100-beta_all_core.ipk" && chmod +x /root/luci-app-openclash_0.45.100-beta_all_core.ipk && opkg install /root/luci-app-openclash_0.45.100-beta_all_core.ipk
