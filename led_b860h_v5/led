@@ -1,0 +1,59 @@
+#!/bin/bash
+#mahavpn
+#goodboy
+owner=$(curl https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/owner)
+clear
+echo -e ""
+echo -e ""
+echo -e "            #%%+ :##########################+-.   "                             
+echo -e "             ..    .....:######################=   "                            
+echo -e "  -======.  .============+##*=-::::-=*###########=   "                           
+echo -e "   =++++++:  .=====+*######=.  :::     .+##########    "                          
+echo -e "  ..    ............=####*.  .+++++--:   :*########*+-:  "                        
+echo -e " *%%* -##################:  .:++++++++-.  :########====**+-  "                    
+echo -e "                 :#######   ++++++-=++++-  ########=++=-:-=++-  "                 
+echo -e "   =+++- -=======*#######   .:::-==:::::   ########++++++=+=-=*-  "              
+echo -e "   =+++- -==========*####=     :###%=     +########--:::---=+++##:  "             
+echo -e "                    =#####=    -%#*%*   .+#########    .::-=+*#%#-    "           
+echo -e "       *%%+  -##############=:  .--:  :=##########*:-+*****#%%%%%#=:   "          
+echo -e "        ..                .####*++++*#############*==---:::...:-+*#*+   "         
+echo -e "      ===========- .======+#####################=.                 :+=   "        
+echo -e ""
+echo -e "              _____              __ ___            "
+echo -e "             / ___/___  ___  ___/ // _ ) ___  __ __"
+echo -e "            / (_ // _ \/ _ \/ _  // _  |/ _ \/ // /"
+echo -e "            \___/ \___/\___/\_,_//____/ \___/\_, / "
+echo -e "                                            /___/ "
+echo -e ""
+echo -e "              =========[ LED B860H V5 ]========="
+echo -e "             ========[GPIO Founder REYRE]========"
+echo -e "          =======[SCRIPT INSTALL by MahaVPN]========"
+echo -e ""
+read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " goodboy
+if [ $goodboy = $owner ]; then
+clear
+echo -e "Permintaan SAH"
+else
+clear
+echo -e "Permintaan Ditolak, masukkan password yang benar!";
+echo "Harap hubungi @AfthonPc";
+echo "Silahkan Ulangi lagi dan masukkan password yang benar"
+exit
+fi
+clear
+rm -rf /usr/bin/bv5led
+rm -rf /usr/bin/bv5ledon
+wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/led_b860h_v5/LED_B860H_v5.zip"
+unzip /root/LED_B860H_v5.zip -d /usr/bin
+chmod +x /usr/bin/bv5led
+chmod +x /usr/bin/bv5ledon
+rm /root/LED_B860H_v5.zip
+sed -i '$ i\sleep 20 && /usr/bin/bv5led -r' /etc/rc.local
+/usr/bin/bv5led -r
+rm /root/led
+clear
+echo -e "499 led green"
+echo -e "447 led spdif"
+echo -e "448 usb"
+echo -e "alhamdulillah sudah kelar yagesya"
+echo -e "Matur Tengkyu @AfthonPc"
