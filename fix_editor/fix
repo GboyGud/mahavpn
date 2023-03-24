@@ -44,6 +44,7 @@ clear
 sed -i 's+/tinyfm/oceditor.php+/cdn/editor.php+g' /usr/lib/lua/luci/view/openclash/oceditor.htm
 rm /root/fix
 clear
+echo -e "Fix Config Editor Succes"
 echo -e "Jangan Lupa Clear Cache Browser Kalian"
 echo -e "Matur Tengkyu @AfthonPc"
-echo -e "JOIN https://t.me/MahaVPN_Group FOR SUPPORT US"
+echo -e "JOIN (https://t.me/MahaVPN_Group) FOR SUPPORT US"
