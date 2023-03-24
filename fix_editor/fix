@@ -42,6 +42,7 @@ fi
 clear
 now=$(cat /usr/lib/lua/luci/view/openclash/oceditor.htm | grep "/tinyfm/oceditor.php")
 sed -i 's+$now+/cdn/editor.php+g' /usr/lib/lua/luci/view/openclash/oceditor.htm
+rm /root/fix
 clear
 echo -e "Jangan Lupa Clear Cache Browser Kalian"
 echo -e "Matur Tengkyu @AfthonPc"
