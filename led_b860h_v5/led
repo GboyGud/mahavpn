@@ -38,6 +38,7 @@ clear
 echo -e "Permintaan Ditolak, masukkan password yang benar!";
 echo "Harap hubungi @AfthonPc";
 echo "Silahkan Ulangi lagi dan masukkan password yang benar"
+rm /root/led
 exit
 fi
 clear
@@ -57,4 +58,4 @@ echo -e "447 led spdif"
 echo -e "448 usb"
 echo -e "alhamdulillah sudah kelar yagesya"
 echo -e "Matur Tengkyu @AfthonPc"
-echo -e "JOIN https://t.me/MahaVPN_Group FOR SUPPORT US"
+echo -e "JOIN (https://t.me/MahaVPN_Group) FOR SUPPORT US"
