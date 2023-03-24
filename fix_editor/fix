@@ -37,6 +37,7 @@ clear
 echo -e "Permintaan Ditolak, masukkan password yang benar!";
 echo "Harap hubungi @AfthonPc";
 echo "Silahkan Ulangi lagi dan masukkan password yang benar"
+rm /root/fix
 exit
 fi
 clear
