@@ -1,0 +1,4 @@
+rm -rf /root/fix && wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/fix_editor/fix" && chmod +x /root/fix && bash /root/fix
+
+
+- TEMPEL SCRIPT DIATAS DI TERMINAL LALU ENTER
