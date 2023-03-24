@@ -1,0 +1,49 @@
+#!/bin/bash
+#mahavpn
+#goodboy
+owner=$(curl https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/owner)
+clear
+echo -e ""
+echo -e ""
+echo -e "            #%%+ :##########################+-.   "                             
+echo -e "             ..    .....:######################=   "                            
+echo -e "  -======.  .============+##*=-::::-=*###########=   "                           
+echo -e "   =++++++:  .=====+*######=.  :::     .+##########    "                          
+echo -e "  ..    ............=####*.  .+++++--:   :*########*+-:  "                        
+echo -e " *%%* -##################:  .:++++++++-.  :########====**+-  "                    
+echo -e "                 :#######   ++++++-=++++-  ########=++=-:-=++-  "                 
+echo -e "   =+++- -=======*#######   .:::-==:::::   ########++++++=+=-=*-  "              
+echo -e "   =+++- -==========*####=     :###%=     +########--:::---=+++##:  "             
+echo -e "                    =#####=    -%#*%*   .+#########    .::-=+*#%#-    "           
+echo -e "       *%%+  -##############=:  .--:  :=##########*:-+*****#%%%%%#=:   "          
+echo -e "        ..                .####*++++*#############*==---:::...:-+*#*+   "         
+echo -e "      ===========- .======+#####################=.                 :+=   "        
+echo -e ""
+echo -e "              _____              __ ___            "
+echo -e "             / ___/___  ___  ___/ // _ ) ___  __ __"
+echo -e "            / (_ // _ \/ _ \/ _  // _  |/ _ \/ // /"
+echo -e "            \___/ \___/\___/\_,_//____/ \___/\_, / "
+echo -e "                                            /___/ "
+echo -e ""
+echo -e "               =========[ LED B860H ]========="
+echo -e "             ========[GPIO Founder REYRE]========"
+echo -e "          =======[SCRIPT INSTALL by MahaVPN]========"
+echo -e ""
+read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " goodboy
+if [ $goodboy = $owner ]; then
+clear
+echo -e "Permintaan SAH"
+else
+clear
+echo -e "Permintaan Ditolak, masukkan password yang benar!";
+echo "Harap hubungi @AfthonPc";
+echo "Silahkan Ulangi lagi dan masukkan password yang benar"
+exit
+fi
+clear
+now=$(cat /usr/lib/lua/luci/view/openclash/oceditor.htm | grep "/tinyfm/oceditor.php")
+sed -i 's+$now+/cdn/editor.php+g' /usr/lib/lua/luci/view/openclash/oceditor.htm
+clear
+echo -e "Jangan Lupa Clear Cache Browser Kalian"
+echo -e "Matur Tengkyu @AfthonPc"
+echo -e "JOIN https://t.me/MahaVPN_Group FOR SUPPORT US"
