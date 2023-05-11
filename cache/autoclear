@@ -1,7 +1,7 @@
 #!/bin/bash
 #mahavpn
 #goodboy
-owner=boy123
+OWNER=boy123
 clear
 echo -e ""
 echo -e ""
@@ -28,8 +28,8 @@ echo -e ""
 echo -e "            =========[ AUTO CLEAR CACHE ]========="
 echo -e "          =======[SCRIPT INSTALL by MahaVPN]========"
 echo -e ""
-read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " goodboy
-if [ $goodboy = $owner ]; then
+read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " RUN
+if [ $RUN = $OWNER ]; then
 clear
 echo -e "Permintaan SAH"
 else
