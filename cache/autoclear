@@ -1,7 +1,7 @@
 #!/bin/bash
 #mahavpn
 #goodboy
-owner=$(curl https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/owner)
+owner=$(goodboy)
 clear
 echo -e ""
 echo -e ""
