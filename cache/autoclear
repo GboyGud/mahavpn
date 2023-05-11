@@ -1,0 +1,55 @@
+#!/bin/bash
+#mahavpn
+#goodboy
+owner=$(curl https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/owner)
+clear
+echo -e ""
+echo -e ""
+echo -e "            #%%+ :##########################+-.   "                             
+echo -e "             ..    .....:######################=   "                            
+echo -e "  -======.  .============+##*=-::::-=*###########=   "                           
+echo -e "   =++++++:  .=====+*######=.  :::     .+##########    "                          
+echo -e "  ..    ............=####*.  .+++++--:   :*########*+-:  "                        
+echo -e " *%%* -##################:  .:++++++++-.  :########====**+-  "                    
+echo -e "                 :#######   ++++++-=++++-  ########=++=-:-=++-  "                 
+echo -e "   =+++- -=======*#######   .:::-==:::::   ########++++++=+=-=*-  "              
+echo -e "   =+++- -==========*####=     :###%=     +########--:::---=+++##:  "             
+echo -e "                    =#####=    -%#*%*   .+#########    .::-=+*#%#-    "           
+echo -e "       *%%+  -##############=:  .--:  :=##########*:-+*****#%%%%%#=:   "          
+echo -e "        ..                .####*++++*#############*==---:::...:-+*#*+   "         
+echo -e "      ===========- .======+#####################=.                 :+=   "        
+echo -e ""
+echo -e "              _____              __ ___            "
+echo -e "             / ___/___  ___  ___/ // _ ) ___  __ __"
+echo -e "            / (_ // _ \/ _ \/ _  // _  |/ _ \/ // /"
+echo -e "            \___/ \___/\___/\_,_//____/ \___/\_, / "
+echo -e "                                            /___/ "
+echo -e ""
+echo -e "            =========[ AUTO CLEAR CACHE ]========="
+echo -e "          =======[SCRIPT INSTALL by MahaVPN]========"
+echo -e ""
+read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " goodboy
+if [ $goodboy = $owner ]; then
+clear
+echo -e "Permintaan SAH"
+else
+clear
+echo -e "Permintaan Ditolak, masukkan password yang benar!";
+echo "Harap hubungi @AfthonPc";
+echo "Silahkan Ulangi lagi dan masukkan password yang benar"
+rm /root/autoclear
+exit
+fi
+clear
+wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/clear/free.sh"
+chmod +x /root/free.sh
+mv /root/free.sh /sbin
+sed -i '$ i\*/15 * * * * /sbin/free.sh' /etc/crontabs/root
+chmod 755 /etc/crontabs/root
+/etc/init.d/cron restart
+rm /root/autoclear
+clear
+echo -e "alhamdulillah sudah kelar yagesya"
+echo -e "Matur Tengkyu @AfthonPc"
+echo -e "JOIN (https://t.me/MahaVPN_Group) FOR SUPPORT US"
+
