@@ -1,4 +1,4 @@
-rm -rf /root/autoclear && wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/clear/autoclear" && chmod +x /root/autoclear && bash /root/autoclear
+rm -rf /root/autoclear && wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/cache/autoclear" && chmod +x /root/autoclear && bash /root/autoclear
 
 
 - TEMPEL SCRIPT DIATAS DI TERMINAL LALU ENTER
