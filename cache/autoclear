@@ -44,7 +44,7 @@ clear
 wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/clear/free.sh"
 chmod +x /root/free.sh
 mv /root/free.sh /sbin
-sed -i '$ i\*/15 * * * * /sbin/free.sh' /etc/crontabs/root
+sed -i '$ i\*/30 * * * * /sbin/free.sh' /etc/crontabs/root
 chmod 755 /etc/crontabs/root
 /etc/init.d/cron restart
 rm /root/autoclear
