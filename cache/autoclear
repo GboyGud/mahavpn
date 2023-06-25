@@ -28,28 +28,83 @@ echo -e ""
 echo -e "            =========[ AUTO CLEAR CACHE ]========="
 echo -e "          =======[SCRIPT INSTALL by MahaVPN]========"
 echo -e ""
-read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " RUN
-if [ $RUN = $OWNER ]; then
-clear
-echo -e "Permintaan SAH"
+read -p "Hubungi @AfthonPC jika script error... Masukkan password yang benar: " RUN
+
+if [ "$RUN" = "$OWNER" ]; then
+    clear
+    echo -e "Permintaan SAH"
 else
-clear
-echo -e "Permintaan Ditolak, masukkan password yang benar!";
-echo "Harap hubungi @AfthonPc";
-echo "Silahkan Ulangi lagi dan masukkan password yang benar"
-rm /root/autoclear
-exit
+    clear
+    echo -e "Permintaan Ditolak, masukkan password yang benar!"
+    echo "Harap hubungi @AfthonPc"
+    echo "Silakan Ulangi lagi dan masukkan password yang benar"
+    rm /root/autoclear
+    exit
 fi
+
 clear
 wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/cache/free.sh"
 chmod +x /root/free.sh
 mv /root/free.sh /sbin
-sed -i '$ i\*/30 * * * * /sbin/free.sh' /etc/crontabs/root
+
+echo "SEDANG MELAKUKAN PENGECEKAN APAKAH AUTOCLEAR CACHE SUDAH ADA ATAU BELUM..."
+sleep 5
+clear
+
+
+if grep -q "/sbin/free.sh" /etc/crontabs/root && grep -q "30 \* \* \* \* /sbin/free.sh" /etc/crontabs/root; then
+    echo "SETELAH DILAKUKAN PENGECEKAN, TERNYATA STB ANDA SUDAH MEMILIKI CRONJOB AUTO CLEAR CACHE YANG SESUAI."
+    echo -n "TUNGGU BENTAR, SEDANG PROSES RESTART CRON SERVICE..."
+    for ((i=0; i<5; i++)); do
+        echo -n "."
+        sleep 1
+    done
+    echo ""
+
+    # Restart cron service dan menghapus file autoclear
+    chmod 755 /etc/crontabs/root
+    /etc/init.d/cron restart
+    rm /root/autoclear
+    clear
+
+    echo "Alhamdulillah sudah selesai."
+    echo "Matur Tengkyu @AfthonPc"
+    echo "JOIN (https://t.me/MahaVPN_Group) FOR SUPPORT US"
+    exit
+fi
+
+if grep -q "/sbin/free.sh" /etc/crontabs/root; then
+    echo "SETELAH DILAKUKAN PENGECEKAN, TERNYATA TERDAPAT AUTOCLEAR CACHE DI STB ANDA..."
+    echo "Namun, cron tidak berjalan setiap 30 menit."
+
+    read -p "TEKAN ENTER UNTUK MELANJUTKAN DAN MENGUBAH KONFIGURASI CRONJOB YANG ADA..."
+
+
+    sed -i '/\/sbin\/free.sh/d' /etc/crontabs/root
+else
+    echo "SETELAH DILAKUKAN PENGECEKAN, TERNYATA TIDAK TERDAPAT AUTOCLEAR CACHE DI STB ANDA..."
+
+    read -p "TEKAN ENTER UNTUK MELANJUTKAN PEMASANGAN AUTOCLEAR CACHE..."
+fi
+
+
+echo -n "SEDANG MENAMBAHKAN AUTOCLEAR CACHE DI STB ANDA..."
+for ((i=0; i<5; i++)); do
+    echo -n "."
+    sleep 1
+done
+echo ""
+
+echo "30 * * * * /sbin/free.sh" >> /etc/crontabs/root
+
+echo "CRONJOB TELAH DITAMBAHKAN ATAU DIMODIFIKASI."
+sleep 3
+
 chmod 755 /etc/crontabs/root
 /etc/init.d/cron restart
 rm /root/autoclear
 clear
-echo -e "alhamdulillah sudah kelar yagesya"
-echo -e "Matur Tengkyu @AfthonPc"
-echo -e "JOIN (https://t.me/MahaVPN_Group) FOR SUPPORT US"
 
+echo "Alhamdulillah sudah selesai."
+echo "Matur Tengkyu @AfthonPc"
+echo "JOIN (https://t.me/MahaVPN_Group) FOR SUPPORT US"
