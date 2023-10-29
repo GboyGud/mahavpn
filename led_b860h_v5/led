@@ -1,61 +1,8 @@
 #!/bin/bash
-#mahavpn
-#goodboy
-owner=$(curl https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/owner2)
-clear
-echo -e ""
-echo -e ""
-echo -e "            #%%+ :##########################+-.   "                             
-echo -e "             ..    .....:######################=   "                            
-echo -e "  -======.  .============+##*=-::::-=*###########=   "                           
-echo -e "   =++++++:  .=====+*######=.  :::     .+##########    "                          
-echo -e "  ..    ............=####*.  .+++++--:   :*########*+-:  "                        
-echo -e " *%%* -##################:  .:++++++++-.  :########====**+-  "                    
-echo -e "                 :#######   ++++++-=++++-  ########=++=-:-=++-  "                 
-echo -e "   =+++- -=======*#######   .:::-==:::::   ########++++++=+=-=*-  "              
-echo -e "   =+++- -==========*####=     :###%=     +########--:::---=+++##:  "             
-echo -e "                    =#####=    -%#*%*   .+#########    .::-=+*#%#-    "           
-echo -e "       *%%+  -##############=:  .--:  :=##########*:-+*****#%%%%%#=:   "          
-echo -e "        ..                .####*++++*#############*==---:::...:-+*#*+   "         
-echo -e "      ===========- .======+#####################=.                 :+=   "        
-echo -e ""
-echo -e "              _____              __ ___            "
-echo -e "             / ___/___  ___  ___/ // _ ) ___  __ __"
-echo -e "            / (_ // _ \/ _ \/ _  // _  |/ _ \/ // /"
-echo -e "            \___/ \___/\___/\_,_//____/ \___/\_, / "
-echo -e "                                            /___/ "
-echo -e ""
-echo -e "              =========[ LED B860H V5 ]========="
-echo -e "             ========[GPIO Founder REYRE]========"
-echo -e "          =======[SCRIPT INSTALL by MahaVPN]========"
-echo -e ""
-read -p "Hubungi @AfthonPC jika script error...Masukkan password yang benar : " goodboy
-if [ $goodboy = $owner ]; then
-clear
-echo -e "Permintaan SAH"
-else
-clear
-echo -e "Permintaan Ditolak, masukkan password yang benar!";
-echo "Harap hubungi @AfthonPc";
-echo "Silahkan Ulangi lagi dan masukkan password yang benar"
-rm /root/led
-exit
-fi
-clear
-rm -rf /usr/bin/bv5led
-rm -rf /usr/bin/bv5ledon
-wget -P /root "https://raw.githubusercontent.com/GboyGud/mahavpn/main/led_b860h_v5/LED_B860H_v5.zip"
-unzip /root/LED_B860H_v5.zip -d /usr/bin
-chmod +x /usr/bin/bv5led
-chmod +x /usr/bin/bv5ledon
-rm /root/LED_B860H_v5.zip
-sed -i '$ i\sleep 20 && /usr/bin/bv5led -r' /etc/rc.local
-/usr/bin/bv5led -r
-rm /root/led
-clear
-echo -e "499 led green"
-echo -e "447 led spdif"
-echo -e "448 usb"
-echo -e "alhamdulillah sudah kelar yagesya"
-echo -e "Matur Tengkyu @AfthonPc"
-echo -e "JOIN (https://t.me/MahaVPN_Group) FOR SUPPORT US"
+# Always Support MahaVPN
+# Join Channel - https://t.me/MahaVPN_Channel
+# Join Grup VIP Dengan Berlangganan VPN Premium, Link PM Telegram @AfthonPc
+
+z="
+";xFz='led ';YDz=' Mah';EDz=' /__';KGz=' spd';XDz='L by';TBz=' .:+';eGz='N (h';uz='::::';Sz='/mai';IFz='/Gbo';hEz='an m';bz='""';MGz='"448';CCz='*%%+';yCz='\___';SFz='_v5.';nBz='=*##';yFz='-r'\'' ';jCz='/ _ ';yEz='t "h';FCz=' .--';aCz=':+= ';cCz='____';ZDz='aVPN';SEz='ang ';BEz='y = ';lEz='/led';OGz='"alh';ZGz='engk';tEz='ed';IEz='aan ';fEz='i la';iDz='ika ';YEz='@Aft';oGz='S"';lFz='/LED';aBz='+-  ';UEz='r!";';fz='+ :#';kEz='root';VGz='ages';lGz='OR S';ZEz='honP';hz='#+-.';nz='"';Pz='_for';dCz='  __';CEz='$own';WFz='oot/';pBz='%=  ';JFz='yGud';CFz='aw.g';DBz='=.  ';REz='rd y';BCz='%#- ';JGz='"447';fGz='://t';EEz='; th';iz='   "';Jz='onte';wCz=' \__';KFz='/mah';CBz='+*##';qBz='   +';JDz='V5 ]';HDz='D B8';gGz='.me/';iGz='VPN_';iFz='n/bv';XCz='.===';nGz='RT U';OFz='60h_';bEz=' "Si';KDz='="';tFz='slee';uDz=': " ';XGz='"Mat';cEz='lahk';GFz='tent';IGz='en"';aDz=']===';mFz='_B86';eCz=' ___';xz='  "';jDz='scri';Zz='echo';MBz='++++';vFz=' && ';wFz='/bv5';JCz=':-+*';VEz=' "Ha';pCz=' _ \';BFz='://r';MCz='%%#=';xEz='/roo';PDz='der ';OCz='   .';JBz='.=##';BBz='  .=';Vz='/own';rFz='-i '\''';GDz='[ LE';QDz='REYR';hGz='Maha';vEz='wget';jEz='rm /';az=' -e ';cBz='-:-=';sDz='g be';NEz=' mas';oBz=':###';HEz='mint';wBz='%*  ';cFz='/usr';FBz='.+##';gFz=' /us';DCz='  -#';VFz='p /r';dFz='/bin';ZCz='#=. ';Dz=' htt';fDz=' @Af';kz='....';jz='  ..';fFz='d +x';uBz='###=';HFz='.com';NBz='--: ';uFz='p 20';cGz='onPc';gz='####';bCz='   _';TFz='zip"';eBz=' "';qEz='usr/';Yz='r';PBz='*+-:';ODz='Foun';IBz=' ...';RGz='ah s';pDz='pass';ADz='/\_,';GEz='"Per';eFz='chmo';XBz='  :#';HCz='=###';HGz=' gre';sCz=' _  ';dDz='"Hub';kCz=') __';mCz='_ __';kGz='p) F';xDz='if [';GGz=' led';aEz='c";';AEz='odbo';Bz='r=$(';aFz='.zip';FEz='en';Xz='clea';KEz='else';BDz='_//_';FFz='rcon';qDz='word';qz='==. ';hFz='r/bi';OEz='ukka';cDz=' -p ';bDz='read';PFz='v5/L';qFz='sed ';rEz='bin/';WDz='STAL';dEz='an U';SCz='...:';jGz='Grou';iCz='_/ /';dz='    ';uCz=' \/ ';vz='-=*#';LEz='Dito';xBz=' .+#';TCz='-+*#';Hz='hubu';TEz='bena';rBz='--::';tDz='nar ';UCz='*+  ';Wz='er2)';rDz=' yan';lDz='rror';LGz='if"';RCz='-:::';uEz='edon';EFz='buse';DDz=', / ';PGz='amdu';KBz='##*.';XEz='ngi ';CGz='loca';Az='owne';sBz=':---';kBz='++=+';SBz='##: ';hDz='PC j';oFz='5.zi';wDz='boy';AFz='ttps';rCz='  //';eDz='ungi';mBz='-  "';vCz='// /';oCz='_ //';jFz='5led';FDz='_/ "';pFz='p';Uz='sets';eEz='lang';lBz='=-=*';NDz='PIO ';fBz='- -=';SGz='udah';OBz='  :*';pEz='rf /';Cz='curl';TDz='==[S';ZBz=' +++';NCz=' .. ';HBz='.   ';Fz='/raw';RFz='860H';MFz='n/le';nFz='0H_v';LBz='  .+';RBz='%* -';Lz='om/G';pz='====';DGz='l';oz='"  -';Gz='.git';SDz='=="';Mz='boyG';ez=' #%%';gDz='thon';GCz=':  :';Rz='roid';RDz='E]==';Tz='n/as';aGz='yu @';YGz='ur T';JEz='SAH"';gBz='==*#';nCz=' / (';EGz='-r';VBz='.  :';IDz='60H ';EBz='::: ';vBz='-%#*';dBz='++- ';LFz='avpn';XFz='LED_';bBz='=++=';TGz=' kel';UGz='ar y';LCz='#%%%';Nz='ud/c';lCz='_  _';VCz='   =';xCz='_/ \';kFz='on';oEz='rm -';Ez='ps:/';yDz=' $go';YFz='B860';DFz='ithu';Oz='lash';GBz='"  .';LDz='  ==';hBz=' .::';BGz='/rc.';rz=' .==';oDz='kan ';mDz='...M';sz='==+#';PEz='n pa';jBz=':   ';mz='=   ';kDz='pt e';ZFz='H_v5';YCz='===+';YBz='##  ';iBz=':-==';NFz='d_b8';QBz='" *%';QGz='lill';WCz='==- ';tBz=' =##';cz='"   ';ABz='+++:';MDz='==[G';fCz='  / ';NGz=' usb';UDz='CRIP';yz='=+++';vDz='good';gEz='gi d';DEz='er ]';bGz='Afth';WEz='rap ';wEz=' -P ';FGz='"499';bFz=' -d ';lz='.:##';ACz='=+*#';UBz='+++-';WBz='**+-';Kz='nt.c';ICz='###*';sEz='bv5l';QCz='==--';VDz='T IN';wz='##= ';mGz='UPPO';nDz='asuk';KCz='****';nEz='fi';QFz='ED_B';UFz='unzi';tCz='|/ _';qCz='\/ _';yBz='.::-';Iz='serc';WGz='ya"';gCz='___/';AGz='/etc';QEz='sswo';Qz='_and';MEz='lak,';CDz='_/\_';dGz='"JOI';iEz='nar"';sFz='$ i\';mEz='exit';PCz='*+++';ECz='#=: ';tz='#*=-';hCz='___ ';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$z$Xz$Yz$z$Zz$az$bz$z$Zz$az$bz$z$Zz$az$cz$dz$dz$ez$fz$gz$gz$gz$gz$gz$gz$hz$iz$z$Zz$az$cz$dz$dz$jz$dz$kz$lz$gz$gz$gz$gz$gz$mz$nz$z$Zz$az$oz$pz$qz$rz$pz$pz$sz$tz$uz$vz$gz$gz$wz$xz$z$Zz$az$cz$yz$ABz$BBz$pz$CBz$gz$DBz$EBz$dz$FBz$gz$gz$dz$nz$z$Zz$az$GBz$HBz$IBz$kz$kz$JBz$KBz$LBz$MBz$NBz$OBz$gz$gz$PBz$xz$z$Zz$az$QBz$RBz$gz$gz$gz$gz$SBz$TBz$MBz$UBz$VBz$gz$gz$pz$WBz$xz$z$Zz$az$cz$dz$dz$dz$XBz$gz$YBz$ZBz$UBz$yz$aBz$gz$gz$bBz$cBz$dBz$eBz$z$Zz$az$cz$yz$fBz$pz$gBz$gz$YBz$hBz$iBz$uz$jBz$gz$gz$MBz$kBz$lBz$mBz$z$Zz$az$cz$yz$fBz$pz$pz$nBz$wz$dz$oBz$pBz$qBz$gz$gz$rBz$sBz$yz$SBz$eBz$z$Zz$az$cz$dz$dz$dz$dz$tBz$uBz$dz$vBz$wBz$xBz$gz$gz$dz$yBz$ACz$BCz$iz$z$Zz$az$cz$dz$CCz$DCz$gz$gz$gz$ECz$FCz$GCz$HCz$gz$ICz$JCz$KCz$LCz$MCz$jBz$nz$z$Zz$az$cz$dz$NCz$dz$dz$dz$OCz$gz$PCz$CBz$gz$gz$ICz$QCz$RCz$SCz$TCz$UCz$eBz$z$Zz$az$cz$VCz$pz$pz$WCz$XCz$YCz$gz$gz$gz$gz$gz$ZCz$dz$dz$dz$dz$aCz$xz$z$Zz$az$bz$z$Zz$az$cz$dz$dz$bCz$cCz$dz$dz$dz$dCz$eCz$dz$dz$dz$nz$z$Zz$az$cz$dz$dz$fCz$gCz$hCz$eCz$dCz$iCz$jCz$kCz$lCz$mCz$nz$z$Zz$az$cz$dz$dz$nCz$oCz$pCz$jCz$qCz$rCz$sCz$tCz$uCz$vCz$nz$z$Zz$az$cz$dz$dz$wCz$xCz$gCz$yCz$ADz$BDz$gCz$wCz$CDz$DDz$nz$z$Zz$az$cz$dz$dz$dz$dz$dz$dz$dz$dz$dz$dz$EDz$FDz$z$Zz$az$bz$z$Zz$az$cz$dz$dz$VCz$pz$pz$GDz$HDz$IDz$JDz$pz$pz$KDz$z$Zz$az$cz$dz$dz$LDz$pz$MDz$NDz$ODz$PDz$QDz$RDz$pz$SDz$z$Zz$az$cz$dz$VCz$pz$TDz$UDz$VDz$WDz$XDz$YDz$ZDz$aDz$pz$KDz$z$Zz$az$bz$z$bDz$cDz$dDz$eDz$fDz$gDz$hDz$iDz$jDz$kDz$lDz$mDz$nDz$oDz$pDz$qDz$rDz$sDz$tDz$uDz$vDz$wDz$z$xDz$yDz$AEz$BEz$CEz$DEz$EEz$FEz$z$Xz$Yz$z$Zz$az$GEz$HEz$IEz$JEz$z$KEz$z$Xz$Yz$z$Zz$az$GEz$HEz$IEz$LEz$MEz$NEz$OEz$PEz$QEz$REz$SEz$TEz$UEz$z$Zz$VEz$WEz$Hz$XEz$YEz$ZEz$aEz$z$Zz$bEz$cEz$dEz$eEz$fEz$gEz$hEz$nDz$oDz$pDz$qDz$rDz$sDz$iEz$z$jEz$kEz$lEz$z$mEz$z$nEz$z$Xz$Yz$z$oEz$pEz$qEz$rEz$sEz$tEz$z$oEz$pEz$qEz$rEz$sEz$uEz$z$vEz$wEz$xEz$yEz$AFz$BFz$CFz$DFz$EFz$FFz$GFz$HFz$IFz$JFz$KFz$LFz$Sz$MFz$NFz$OFz$PFz$QFz$RFz$SFz$TFz$z$UFz$VFz$WFz$XFz$YFz$ZFz$aFz$bFz$cFz$dFz$z$eFz$fFz$gFz$hFz$iFz$jFz$z$eFz$fFz$gFz$hFz$iFz$jFz$kFz$z$jEz$kEz$lFz$mFz$nFz$oFz$pFz$z$qFz$rFz$sFz$tFz$uFz$vFz$cFz$dFz$wFz$xFz$yFz$AGz$BGz$CGz$DGz$z$cFz$dFz$wFz$xFz$EGz$z$jEz$kEz$lEz$z$Xz$Yz$z$Zz$az$FGz$GGz$HGz$IGz$z$Zz$az$JGz$GGz$KGz$LGz$z$Zz$az$MGz$NGz$nz$z$Zz$az$OGz$PGz$QGz$RGz$SGz$TGz$UGz$VGz$WGz$z$Zz$az$XGz$YGz$ZGz$aGz$bGz$cGz$nz$z$Zz$az$dGz$eGz$AFz$fGz$gGz$hGz$iGz$jGz$kGz$lGz$mGz$nGz$oGz"
