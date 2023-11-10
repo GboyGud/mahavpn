@@ -6,7 +6,7 @@ l. Jalnkan Di Terminal
    wget -q -O /root/botstb.sh "https://raw.githubusercontent.com/GboyGud/mahavpn/main/bot-stb/botstb.sh" && chmod +x /root/botstb.sh && bash /root/botstb.sh
 
 2. Masukkan Password, Password harus request ke tele admin. 
-   Link Tele Admin MahVPN = https://(https://t.me/AfthonPc
+   Link Tele Admin MahVPN = https://https://t.me/AfthonPc
 
 3. Enjoy
 
