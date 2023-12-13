@@ -1,6 +1,6 @@
 <h2 align="center"><u>MAHAVPN-STORE</u></h2>
 
-<h4 align="center"> **Share what you know, spark the glow** </h4>
+<h4 align="center"> Share what you know, spark the glow </h4>
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/GboyGud/mahavpn?style=for-the-badge&color=orange">
