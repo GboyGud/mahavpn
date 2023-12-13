@@ -30,7 +30,7 @@ Semua tutorial/config yang dibuat tidak untuk dijualbelikan
 
 ### [+] SUPPORT ME ON
 <div>
-  <a href="https://t.me/MahaVPN_Channel/169" target="_blank"><img src="https://img.shields.io/badge/Price%20list%20VPN%20Premium%20MahaVPN-ff4444"></a>
+  <a href="https://t.me/MahaVPN_Channel/169" target="_blank"><img src="https://img.shields.io/badge/Price%20list%20VPN%20Premium%20MahaVPN-ffff66"></a>
 </div>
 <div>
   <a href="https://t.me/AfthonPc" target="_blank"><img src="https://img.shields.io/badge/Telegram-@AfthonPc-blue?style=for-the-badge&logo=telegram"></a>
