@@ -1,6 +1,6 @@
 <h2 align="center"><u>MAHAVPN-STORE</u></h2>
 
-<h4 align="center"> Share what you know, spark the glow </h4>
+<h4 align="center"> **Share what you know, spark the glow** </h4>
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/GboyGud/mahavpn?style=for-the-badge&color=orange">
@@ -19,10 +19,7 @@
 </p>
 
 ### [+] Description
-REPO INI DIBUAT UNTUK MEDIA BELAJAR BAGI MEMBER MAHAVPN. BEBERAPA SCRIPT MEMERLUKAN PASSWORD UNTUK MENJALANKANNYA. ANDA BISA BERGABUNG DENGAN KAMI DI TELEGRAM:
-Owner : https://t.me/AfthonPc
-Grup Publik : https://t.me/MahaVPN_Publicgroup
-Grup VIP : Wajib Berlangganan Untuk Masuk Grup VIP
+REPO INI DIBUAT UNTUK MEDIA BELAJAR BAGI MEMBER MAHAVPN. BEBERAPA SCRIPT MEMERLUKAN PASSWORD UNTUK MENJALANKANNYA. ANDA BISA BERGABUNG DENGAN KAMI DI TELEGRAM.
 
 ### [+] Disclaimer 
 Semua tutorial/config yang dibuat tidak untuk dijualbelikan
