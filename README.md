@@ -1,6 +1,5 @@
 <h2 align="center"><u>MAHAVPN-STORE</u></h2>
 
-![Share what you know, spark the glow](images/banner.png)
 <h4 align="center"> Share what you know, spark the glow </h4>
 
 <p align="center">
