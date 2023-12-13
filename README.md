@@ -28,6 +28,11 @@ Grup VIP : Wajib Berlangganan Untuk Masuk Grup VIP
 Semua tutorial/config yang dibuat tidak untuk dijualbelikan
 
 ### [+] Find me on 
-<a href="https://t.me/AfthonPc" target="_blank" style="display: block;"><img src="https://img.shields.io/badge/Telegram-https://t.me/AfthonPc-blue?style=for-the-badge&logo=telegram"></a>
-<a href="https://t.me/MahaVPN_Publicgroup" target="_blank" style="display: block;"><img src="https://img.shields.io/badge/Grup_Publik-https://t.me/MahaVPN_Publicgroup-blue?style=for-the-badge&logo=telegram"></a>
+<div>
+  <a href="https://t.me/AfthonPc" target="_blank"><img src="https://img.shields.io/badge/Telegram-https://t.me/AfthonPc-blue?style=for-the-badge&logo=telegram"></a>
+</div>
+<div>
+  <a href="https://t.me/MahaVPN_Publicgroup" target="_blank"><img src="https://img.shields.io/badge/Grup_Publik-https://t.me/MahaVPN_Publicgroup-blue?style=for-the-badge&logo=telegram"></a>
+</div>
+
 
