@@ -1,5 +1,33 @@
-- Tutorial By GoodBoy
-- Join channel telgeram : https://t.me/MahaVPN_Channel
-- Join Grup VIP Dengan Berlangganan VPN Premium, Link PM Telegram https://t.me/AfthonPc
-- Grup VIP disediakan tutorial & trik seputar Stb Openwrt
-- Link youtube Indonesian Tech Channel : https://www.youtube.com/@indonesiantech
+<h2 align="center"><u>MAHAVPN-STORE</u></h2>
+
+![Share what you know, spark the glow](images/banner.png)
+<h4 align="center"> Share what you know, spark the glow </h4>
+
+<p align="center">
+    <img src="https://img.shields.io/github/stars/GboyGud/mahavpn?style=for-the-badge&color=orange">
+    <img src="https://img.shields.io/github/forks/GboyGud/mahavpn?style=for-the-badge&color=purple">
+    <img src="https://img.shields.io/github/license/GboyGud/mahavpn?style=for-the-badge&color=blue">
+    <img src="https://img.shields.io/github/issues/GboyGud/mahavpn?style=for-the-badge&color=red">
+    <img src="https://img.shields.io/github/contributors/GboyGud/mahavpn?style=for-the-badge&color=cyan">
+<br>
+    <img src="https://img.shields.io/badge/Author-@AfthonPc-magenta?style=flat-square">
+    <img src="https://img.shields.io/badge/Open%20Source-No-orange?style=flat-square">
+    <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
+    <img src="https://img.shields.io/badge/Made%20In-Jember, Jawa Timur, Indonesia-green?style=flat-square">
+    <img src="https://img.shields.io/badge/Written%20In-Indonesia-blue?style=flat-square">
+<br>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=synthwave">
+</p>
+
+### [+] Description
+REPO INI DIBUAT UNTUK MEDIA BELAJAR BAGI MEMBER MAHAVPN. BEBERAPA SCRIPT MEMERLUKAN PASSWORD UNTUK MENJALANKANNYA. ANDA BISA BERGABUNG DENGAN KAMI DI TELEGRAM:
+Owner : https://t.me/AfthonPc
+Grup Publik : https://t.me/MahaVPN_Publicgroup
+Grup VIP : Wajib Berlangganan Untuk Masuk Grup VIP
+
+### [+] Disclaimer 
+Semua tutorial/config yang dibuat tidak untuk dijualbelikan
+
+### [+] Find me on 
+<a href="https://t.me/AfthonPc" target="_blank"><img src="https://img.shields.io/badge/Messenger-https://t.me/AfthonPc-blue?style=for-the-badge&logo=telegram"></a>
+
