@@ -1,6 +1,7 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/GboyGud/mahavpn/main/images/banner.jpg?sanitize=true"
-        height="200">
+        height="200" width="400">
+</p>
     
 <h2 align="center"><u>MAHAVPN-STORE</u></h2>
 
