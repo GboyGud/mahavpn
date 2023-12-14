@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Made%20In-Jember, Jawa Timur, Indonesia-green?style=flat-square">
     <img src="https://img.shields.io/badge/Written%20In-Indonesia-blue?style=flat-square">
 <br>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=synthwave">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=dracula">
 </p>
 
 ### [+] Description
