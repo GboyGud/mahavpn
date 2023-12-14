@@ -20,14 +20,6 @@
     <img src="https://img.shields.io/badge/Written%20In-Indonesia-blue?style=flat-square">
 <br>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=radical">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=merco">   
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=gruvbox">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=tokyonight">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=onedark">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=cobalt">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=synthwave">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=highcontrast">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=dracula">
 </p>
 
 ### [+] Description
