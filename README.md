@@ -21,7 +21,7 @@
 <br>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=GboyGud&repo=mahavpn&theme=radical">
 </p>
-[![Statistik GitHub](https://github-readme-stats.vercel.app/api?username=GboyGud)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GboyGud)](https://github.com/anuraghazra/github-readme-stats)
 ### [+] Description
 REPO INI DIBUAT UNTUK MEDIA BELAJAR BAGI MEMBER MAHAVPN. BEBERAPA SCRIPT MEMERLUKAN PASSWORD UNTUK MENJALANKANNYA. ANDA BISA BERGABUNG DENGAN KAMI DI TELEGRAM.
 
