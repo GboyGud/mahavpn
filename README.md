@@ -46,3 +46,4 @@ Semua tutorial/config yang dibuat tidak untuk dijualbelikan
 <div>
   <a href="https://t.me/MahaVPN_Publicgroup" target="_blank"><img src="https://img.shields.io/badge/Grup_Publik-@MahaVPN_Publicgroup-blue?style=for-the-badge&logo=telegram"></a>
 </div>
+<a href="https://t.me/MahaVPN_Publicgroup" target="_blank"><img src="https://img.shields.io/badge/Grup_Publik-@MahaVPN_Publicgroup-blue?style=for-the-badge&logo=telegram">
