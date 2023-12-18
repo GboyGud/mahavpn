@@ -2,9 +2,9 @@
     <img src="https://raw.githubusercontent.com/GboyGud/mahavpn/main/images/banner.jpg?sanitize=true"
         height="400" width="400">
     
-<h1 align="center"><u>MAHAVPN-STORE</u></h1>
+<h1 align="center"><u> KUMPULAN SCRIPT ONE CLICK</u></h1>
 
-<h2 align="center">Share what you know, spark the glow</h2>
+<h2 align="center">BY MAHAVPN x GOODBOY</h2>
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/GboyGud/mahavpn?style=for-the-badge&color=orange">
