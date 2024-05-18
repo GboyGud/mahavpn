@@ -15,13 +15,20 @@ start() {
 
 stop() {
     echo "Stopping monitor-ping..."
-    killall mahavpn-ping.sh >/dev/null 2>&1
+    kill $(pgrep -f /usr/bin/mahavpn-ping.sh) >/dev/null 2>&1
+}
+
+restart() {
+    stop
+    sleep 1
+    start
 }
 
 enable() {
     echo "Enabling autoip service..."
     [ -e /etc/rc.d/S99autoip ] || ln -s /etc/init.d/mahavpn_telebot /etc/rc.d/S99autoip
     stop
+    sleep 1
     start
 }
 
