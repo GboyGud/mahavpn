@@ -1,0 +1,32 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+STOP=10
+
+LOG_FILE="/tmp/autoip-all.log"
+
+start() {
+    echo "Starting monitor-ping..."
+    chmod +x /usr/bin/mahavpn-ping.sh
+    chmod +x /usr/bin/mahavpn-modem.py
+    chmod +x /usr/bin/lockband.py
+    /usr/bin/mahavpn-ping.sh >> $LOG_FILE 2>&1 &
+}
+
+stop() {
+    echo "Stopping monitor-ping..."
+    killall mahavpn-ping.sh >/dev/null 2>&1
+}
+
+enable() {
+    echo "Enabling autoip service..."
+    [ -e /etc/rc.d/S99autoip ] || ln -s /etc/init.d/mahavpn_telebot /etc/rc.d/S99autoip
+    stop
+    start
+}
+
+disable() {
+    echo "Disabling autoip service..."
+    rm -f /etc/rc.d/S99autoip
+    stop
+}
