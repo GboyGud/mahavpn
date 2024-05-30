@@ -16,6 +16,7 @@ start() {
 stop() {
     echo "Stopping monitor-ping..."
     kill $(pgrep -f /usr/bin/mahavpn-ping.sh) >/dev/null 2>&1
+    kill $(pgrep -f /usr/bin/mahavpn-modem.py) >/dev/null 2>&1
 }
 
 restart() {
