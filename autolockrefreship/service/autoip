@@ -35,6 +35,6 @@ enable() {
 
 disable() {
     echo "Disabling autoip service..."
-    rm -f /etc/rc.d/S99autoip
+    rm -f /etc/rc.d/S99autoip /tmp/autoip-all.log /tmp/autoip-offline.log /tmp/autoip-sendbot.txt /tmp/autoip-sendbot.log >/dev/null 2>&1
     stop
 }
