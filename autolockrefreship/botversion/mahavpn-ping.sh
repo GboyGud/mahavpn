@@ -3,7 +3,7 @@
 
 # > Dibawah ini isi sesuai dengan kebutuhan anda
 
-host="google.com" # isi dengan host/ip yang merespon ketika di ping, saran menggunakan BUG IP
+host=google.com # isi dengan host/ip yang merespon ketika di ping, saran menggunakan BUG IP
 wait_period=5 # Waktu tunggu untuk dinilai offline
 ping_period=3 # Jumlah percobaan ping
 sleep_period=5 # Jarak waktu untuk setiap proses ping
